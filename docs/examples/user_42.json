@@ -1,0 +1,365 @@
+{
+  "user_id": 42,
+  "as_of": "2026-09-21T00:00:00.000Z",
+  "personalization": "cold_start",
+  "recommendations": [
+    {
+      "rank": 1,
+      "circle": {
+        "id": 39,
+        "name": "Mentorship Matters",
+        "slug": "mentorship-matters",
+        "description": "A supportive circle for women focused on sponsorship & mentorship.",
+        "topic": {
+          "slug": "sponsorship-mentorship",
+          "label": "Sponsorship & mentorship"
+        },
+        "cover_image_url": null,
+        "format": "virtual",
+        "join_policy": "open",
+        "member_count": 11,
+        "max_members": 17,
+        "spots_left": 6,
+        "leader": {
+          "first_name": "Blythe",
+          "job_title": "Data Analyst"
+        }
+      },
+      "explanation": "A popular place to start. Very active: 11 posts and 91 chat messages in the past month.",
+      "reasons": [
+        {
+          "code": "popular_starting_point",
+          "detail": "Among the most active Circles"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 11 posts and 91 chat messages in the past month."
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_virtual",
+          "detail": "meets virtually"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 16,
+          "name": "Mentors & Sponsors"
+        }
+      ],
+      "score": {
+        "total": 0.4159,
+        "relevance": 0.0,
+        "activity": 0.8863,
+        "availability": 1.0,
+        "peers": 0.0
+      }
+    },
+    {
+      "rank": 2,
+      "circle": {
+        "id": 11,
+        "name": "The Negotiation Table",
+        "slug": "the-negotiation-table",
+        "description": "A supportive circle for women focused on negotiation.",
+        "topic": {
+          "slug": "negotiation",
+          "label": "Negotiation"
+        },
+        "cover_image_url": "https://images.example.org/circles/the-negotiation-table.jpg",
+        "format": "hybrid",
+        "join_policy": "open",
+        "member_count": 15,
+        "max_members": 25,
+        "spots_left": 10,
+        "leader": {
+          "first_name": "Sofia",
+          "job_title": "Marketing Lead"
+        }
+      },
+      "explanation": "A popular place to start. Very active: 13 posts and 153 chat messages in the past month.",
+      "reasons": [
+        {
+          "code": "popular_starting_point",
+          "detail": "Among the most active Circles"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 13 posts and 153 chat messages in the past month."
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_hybrid",
+          "detail": "meets in person and online"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 10,
+          "name": "Negotiation Circle"
+        },
+        {
+          "id": 12,
+          "name": "Negotiate Like a Leader"
+        }
+      ],
+      "score": {
+        "total": 0.4149,
+        "relevance": 0.0,
+        "activity": 0.933,
+        "availability": 0.9,
+        "peers": 0.0
+      }
+    },
+    {
+      "rank": 3,
+      "circle": {
+        "id": 5,
+        "name": "Women Who Lead",
+        "slug": "women-who-lead",
+        "description": "A supportive circle for women focused on leadership skills.",
+        "topic": {
+          "slug": "leadership-skills",
+          "label": "Leadership skills"
+        },
+        "cover_image_url": "https://images.example.org/circles/women-who-lead.jpg",
+        "format": "hybrid",
+        "join_policy": "open",
+        "member_count": 24,
+        "max_members": 31,
+        "spots_left": 7,
+        "leader": {
+          "first_name": "Ingrid",
+          "job_title": "Recruiter"
+        }
+      },
+      "explanation": "A popular place to start. Very active: 11 posts and 165 chat messages in the past month.",
+      "reasons": [
+        {
+          "code": "popular_starting_point",
+          "detail": "Among the most active Circles"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 11 posts and 165 chat messages in the past month."
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_hybrid",
+          "detail": "meets in person and online"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 1,
+          "name": "The Elevation Circle"
+        },
+        {
+          "id": 35,
+          "name": "Board-Ready Women"
+        }
+      ],
+      "score": {
+        "total": 0.4027,
+        "relevance": 0.0,
+        "activity": 0.8922,
+        "availability": 0.9,
+        "peers": 0.0
+      }
+    },
+    {
+      "rank": 4,
+      "circle": {
+        "id": 24,
+        "name": "Burnout to Balance",
+        "slug": "burnout-to-balance",
+        "description": "A supportive circle for women focused on stress & burnout.",
+        "topic": {
+          "slug": "stress-burnout",
+          "label": "Stress & burnout"
+        },
+        "cover_image_url": "https://images.example.org/circles/burnout-to-balance.jpg",
+        "format": "hybrid",
+        "join_policy": "open",
+        "member_count": 10,
+        "max_members": 16,
+        "spots_left": 6,
+        "leader": {
+          "first_name": "Leila",
+          "job_title": "Account Executive"
+        }
+      },
+      "explanation": "A popular place to start. Very active: 10 posts and 96 chat messages in the past month.",
+      "reasons": [
+        {
+          "code": "popular_starting_point",
+          "detail": "Among the most active Circles"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 10 posts and 96 chat messages in the past month."
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_hybrid",
+          "detail": "meets in person and online"
+        }
+      ],
+      "similar_circles": [],
+      "score": {
+        "total": 0.3804,
+        "relevance": 0.0,
+        "activity": 0.8179,
+        "availability": 0.9,
+        "peers": 0.0
+      }
+    },
+    {
+      "rank": 5,
+      "circle": {
+        "id": 8,
+        "name": "Managing Up Guild",
+        "slug": "managing-up-guild",
+        "description": "A supportive circle for women focused on managing up.",
+        "topic": {
+          "slug": "managing-up",
+          "label": "Managing up"
+        },
+        "cover_image_url": "https://images.example.org/circles/managing-up-guild.jpg",
+        "format": "hybrid",
+        "join_policy": "open",
+        "member_count": 15,
+        "max_members": null,
+        "spots_left": null,
+        "leader": {
+          "first_name": "Bianca",
+          "job_title": "HR Business Partner"
+        }
+      },
+      "explanation": "A popular place to start. Very active: 8 posts and 52 chat messages in the past month.",
+      "reasons": [
+        {
+          "code": "popular_starting_point",
+          "detail": "Among the most active Circles"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 8 posts and 52 chat messages in the past month."
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_hybrid",
+          "detail": "meets in person and online"
+        }
+      ],
+      "similar_circles": [],
+      "score": {
+        "total": 0.3713,
+        "relevance": 0.0,
+        "activity": 0.7875,
+        "availability": 0.9,
+        "peers": 0.0
+      }
+    }
+  ],
+  "next_step": "Pick a few topics you care about and we'll tailor these to you.",
+  "debug": {
+    "interest_profile": [],
+    "excluded": [
+      {
+        "id": 2,
+        "name": "Next Chapter Circle",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "The Only One",
+        "reasons": [
+          "not_discoverable",
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Working Mothers United",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "The Promotion Path",
+        "reasons": [
+          "full"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Career Climbers",
+        "reasons": [
+          "not_discoverable",
+          "inactive"
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Women of the 405",
+        "reasons": [
+          "no_topic_to_match"
+        ]
+      },
+      {
+        "id": 28,
+        "name": "The Latina Coalition",
+        "reasons": [
+          "no_topic_to_match"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Professionals Who Parent",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Early Career Collective",
+        "reasons": [
+          "not_discoverable"
+        ]
+      },
+      {
+        "id": 32,
+        "name": "The Resilience Room",
+        "reasons": [
+          "inactive"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Return & Rise",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "user_id": 7,
+  "as_of": "2026-09-21T00:00:00.000Z",
+  "personalization": "stated_interests",
+  "recommendations": [
+    {
+      "rank": 1,
+      "circle": {
+        "id": 5,
+        "name": "Women Who Lead",
+        "slug": "women-who-lead",
+        "description": "A supportive circle for women focused on leadership skills.",
+        "topic": {
+          "slug": "leadership-skills",
+          "label": "Leadership skills"
+        },
+        "cover_image_url": "https://images.example.org/circles/women-who-lead.jpg",
+        "format": "hybrid",
+        "join_policy": "open",
+        "member_count": 24,
+        "max_members": 31,
+        "spots_left": 7,
+        "leader": {
+          "first_name": "Ingrid",
+          "job_title": "Recruiter"
+        }
+      },
+      "explanation": "Focused on Leadership skills, one of your interests. Very active: 11 posts and 165 chat messages in the past month. Led by Ingrid, who's also in Seattle, WA.",
+      "reasons": [
+        {
+          "code": "stated_interest_topic_match",
+          "detail": "Leadership skills"
+        },
+        {
+          "code": "joined_interest_tag_match",
+          "detail": "Resilience"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 11 posts and 165 chat messages in the past month."
+        },
+        {
+          "code": "leader_same_city",
+          "detail": "Seattle, WA"
+        },
+        {
+          "code": "industry_peers",
+          "detail": "2 members in Technology"
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_hybrid",
+          "detail": "meets in person and online"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 1,
+          "name": "The Elevation Circle"
+        },
+        {
+          "id": 35,
+          "name": "Board-Ready Women"
+        }
+      ],
+      "score": {
+        "total": 0.951,
+        "relevance": 1.0,
+        "activity": 0.8922,
+        "availability": 1.0,
+        "peers": 0.6667
+      }
+    },
+    {
+      "rank": 2,
+      "circle": {
+        "id": 6,
+        "name": "Speak Up Circle",
+        "slug": "speak-up-circle",
+        "description": "A supportive circle for women focused on public speaking.",
+        "topic": {
+          "slug": "public-speaking",
+          "label": "Public speaking"
+        },
+        "cover_image_url": "https://images.example.org/circles/speak-up-circle.jpg",
+        "format": "in_person",
+        "join_policy": "open",
+        "member_count": 9,
+        "max_members": 13,
+        "spots_left": 4,
+        "leader": {
+          "first_name": "Ximena",
+          "job_title": null
+        }
+      },
+      "explanation": "Covers two of your interests: Public speaking and Leadership skills. Very active: 8 posts and 54 chat messages in the past month.",
+      "reasons": [
+        {
+          "code": "stated_interest_topic_match",
+          "detail": "Public speaking"
+        },
+        {
+          "code": "stated_interest_tag_match",
+          "detail": "Leadership skills"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 8 posts and 54 chat messages in the past month."
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_in_person",
+          "detail": "meets in person"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 38,
+          "name": "Speak With Impact"
+        }
+      ],
+      "score": {
+        "total": 0.8462,
+        "relevance": 1.0,
+        "activity": 0.804,
+        "availability": 0.7,
+        "peers": 0.0
+      }
+    },
+    {
+      "rank": 3,
+      "circle": {
+        "id": 34,
+        "name": "Visibility Lab",
+        "slug": "visibility-lab",
+        "description": "A supportive circle for women focused on visibility & recognition.",
+        "topic": {
+          "slug": "visibility-recognition",
+          "label": "Visibility & recognition"
+        },
+        "cover_image_url": "https://images.example.org/circles/visibility-lab.jpg",
+        "format": "hybrid",
+        "join_policy": "open",
+        "member_count": 7,
+        "max_members": 10,
+        "spots_left": 3,
+        "leader": {
+          "first_name": "Rosa",
+          "job_title": null
+        }
+      },
+      "explanation": "You mentioned “executive presence” in your bio, and this Circle focuses on Visibility & recognition. Active: 5 posts and 20 chat messages in the past month, last active 12 days ago. Only 3 spots left.",
+      "reasons": [
+        {
+          "code": "bio_interest_topic_match",
+          "detail": "Visibility & recognition"
+        },
+        {
+          "code": "stated_interest_tag_match",
+          "detail": "Public speaking"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Active: 5 posts and 20 chat messages in the past month, last active 12 days ago."
+        },
+        {
+          "code": "few_spots_left",
+          "detail": "3 spots left"
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_hybrid",
+          "detail": "meets in person and online"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 9,
+          "name": "Seen & Heard"
+        }
+      ],
+      "score": {
+        "total": 0.6134,
+        "relevance": 0.725,
+        "activity": 0.3865,
+        "availability": 0.9,
+        "peers": 0.0
+      }
+    },
+    {
+      "rank": 4,
+      "circle": {
+        "id": 31,
+        "name": "Team Leads Circle",
+        "slug": "team-leads-circle",
+        "description": "A supportive circle for women focused on managing a team.",
+        "topic": {
+          "slug": "managing-a-team",
+          "label": "Managing a team"
+        },
+        "cover_image_url": "https://images.example.org/circles/team-leads-circle.jpg",
+        "format": "in_person",
+        "join_policy": "open",
+        "member_count": 15,
+        "max_members": null,
+        "spots_left": null,
+        "leader": {
+          "first_name": "Ingrid",
+          "job_title": "Research Scientist"
+        }
+      },
+      "explanation": "Also covers Public speaking, one of your interests. Very active: 10 posts and 186 chat messages in the past month.",
+      "reasons": [
+        {
+          "code": "stated_interest_tag_match",
+          "detail": "Public speaking"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 10 posts and 186 chat messages in the past month."
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_in_person",
+          "detail": "meets in person"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 36,
+          "name": "First 90 Days"
+        }
+      ],
+      "score": {
+        "total": 0.5677,
+        "relevance": 0.5,
+        "activity": 0.859,
+        "availability": 0.4,
+        "peers": 0.0
+      }
+    },
+    {
+      "rank": 5,
+      "circle": {
+        "id": 14,
+        "name": "Beyond Imposter Syndrome",
+        "slug": "beyond-imposter-syndrome",
+        "description": "A supportive circle for women focused on imposter syndrome.",
+        "topic": {
+          "slug": "imposter-syndrome",
+          "label": "Imposter syndrome"
+        },
+        "cover_image_url": "https://images.example.org/circles/beyond-imposter-syndrome.jpg",
+        "format": "hybrid",
+        "join_policy": "open",
+        "member_count": 6,
+        "max_members": 10,
+        "spots_left": 4,
+        "leader": {
+          "first_name": "Grace",
+          "job_title": "Engineering Manager"
+        }
+      },
+      "explanation": "Also covers Public speaking, one of your interests. Active: 5 posts and 15 chat messages in the past month, last active 17 days ago.",
+      "reasons": [
+        {
+          "code": "stated_interest_tag_match",
+          "detail": "Public speaking"
+        },
+        {
+          "code": "joined_interest_tag_match",
+          "detail": "Resilience"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Active: 5 posts and 15 chat messages in the past month, last active 17 days ago."
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_hybrid",
+          "detail": "meets in person and online"
+        }
+      ],
+      "similar_circles": [],
+      "score": {
+        "total": 0.5569,
+        "relevance": 0.5625,
+        "activity": 0.4131,
+        "availability": 0.9,
+        "peers": 0.3333
+      }
+    }
+  ],
+  "debug": {
+    "interest_profile": [
+      {
+        "topic": "leadership-skills",
+        "weight": 1.0,
+        "source": "stated",
+        "evidence": null
+      },
+      {
+        "topic": "public-speaking",
+        "weight": 1.0,
+        "source": "stated",
+        "evidence": null
+      },
+      {
+        "topic": "visibility-recognition",
+        "weight": 0.6,
+        "source": "bio",
+        "evidence": "executive presence"
+      },
+      {
+        "topic": "resilience",
+        "weight": 0.5,
+        "source": "joined",
+        "evidence": "Women in Transition"
+      }
+    ],
+    "excluded": [
+      {
+        "id": 2,
+        "name": "Next Chapter Circle",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Women in Transition",
+        "reasons": [
+          "already_member"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "The Only One",
+        "reasons": [
+          "not_discoverable",
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Working Mothers United",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "The Promotion Path",
+        "reasons": [
+          "full"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Career Climbers",
+        "reasons": [
+          "not_discoverable",
+          "inactive"
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Women of the 405",
+        "reasons": [
+          "no_topic_to_match"
+        ]
+      },
+      {
+        "id": 28,
+        "name": "The Latina Coalition",
+        "reasons": [
+          "no_topic_to_match"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Professionals Who Parent",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Early Career Collective",
+        "reasons": [
+          "not_discoverable"
+        ]
+      },
+      {
+        "id": 32,
+        "name": "The Resilience Room",
+        "reasons": [
+          "inactive"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Return & Rise",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      }
+    ]
+  }
+}

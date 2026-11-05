@@ -1,0 +1,397 @@
+{
+  "user_id": 23,
+  "as_of": "2026-09-21T00:00:00.000Z",
+  "personalization": "stated_interests",
+  "recommendations": [
+    {
+      "rank": 1,
+      "circle": {
+        "id": 22,
+        "name": "Level Up Collective",
+        "slug": "level-up-collective",
+        "description": "A supportive circle for women focused on getting promoted.",
+        "topic": {
+          "slug": "getting-promoted",
+          "label": "Getting promoted"
+        },
+        "cover_image_url": "https://images.example.org/circles/level-up-collective.jpg",
+        "format": "hybrid",
+        "join_policy": "request",
+        "member_count": 14,
+        "max_members": 20,
+        "spots_left": 6,
+        "leader": {
+          "first_name": "Aisha",
+          "job_title": "Engineering Manager"
+        }
+      },
+      "explanation": "Focused on Getting promoted, one of your interests. Very active: 8 posts and 144 chat messages in the past month. 2 members also work in Media.",
+      "reasons": [
+        {
+          "code": "stated_interest_topic_match",
+          "detail": "Getting promoted"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 8 posts and 144 chat messages in the past month."
+        },
+        {
+          "code": "industry_peers",
+          "detail": "2 members in Media"
+        },
+        {
+          "code": "join_request",
+          "detail": "Request to join"
+        },
+        {
+          "code": "format_hybrid",
+          "detail": "meets in person and online"
+        }
+      ],
+      "similar_circles": [],
+      "score": {
+        "total": 0.8841,
+        "relevance": 1.0,
+        "activity": 0.8316,
+        "availability": 0.675,
+        "peers": 0.6667
+      }
+    },
+    {
+      "rank": 2,
+      "circle": {
+        "id": 16,
+        "name": "Mentors & Sponsors",
+        "slug": "mentors-and-sponsors",
+        "description": "A supportive circle for women focused on sponsorship & mentorship.",
+        "topic": {
+          "slug": "sponsorship-mentorship",
+          "label": "Sponsorship & mentorship"
+        },
+        "cover_image_url": null,
+        "format": "virtual",
+        "join_policy": "open",
+        "member_count": 12,
+        "max_members": null,
+        "spots_left": null,
+        "leader": {
+          "first_name": "Maya",
+          "job_title": null
+        }
+      },
+      "explanation": "Also covers Getting promoted, one of your interests. Active: 6 posts and 17 chat messages in the past month, last active 14 days ago.",
+      "reasons": [
+        {
+          "code": "stated_interest_tag_match",
+          "detail": "Getting promoted"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Active: 6 posts and 17 chat messages in the past month, last active 14 days ago."
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_virtual",
+          "detail": "meets virtually"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 39,
+          "name": "Mentorship Matters"
+        }
+      ],
+      "score": {
+        "total": 0.5332,
+        "relevance": 0.5,
+        "activity": 0.444,
+        "availability": 1.0,
+        "peers": 0.0
+      }
+    },
+    {
+      "rank": 3,
+      "circle": {
+        "id": 15,
+        "name": "The Network Effect",
+        "slug": "the-network-effect",
+        "description": "A supportive circle for women focused on networking.",
+        "topic": {
+          "slug": "networking",
+          "label": "Networking"
+        },
+        "cover_image_url": null,
+        "format": "in_person",
+        "join_policy": "request",
+        "member_count": 26,
+        "max_members": 35,
+        "spots_left": 9,
+        "leader": {
+          "first_name": "Camila",
+          "job_title": "Program Coordinator"
+        }
+      },
+      "explanation": "Like Allies at Work, a Circle you're in, this one touches on Allyship. Very active: 16 posts and 203 chat messages in the past month. 3 members also work in Media.",
+      "reasons": [
+        {
+          "code": "joined_interest_tag_match",
+          "detail": "Allyship"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 16 posts and 203 chat messages in the past month."
+        },
+        {
+          "code": "industry_peers",
+          "detail": "3 members in Media"
+        },
+        {
+          "code": "join_request",
+          "detail": "Request to join"
+        },
+        {
+          "code": "format_in_person",
+          "detail": "meets in person"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 40,
+          "name": "Network & Grow"
+        }
+      ],
+      "score": {
+        "total": 0.5188,
+        "relevance": 0.25,
+        "activity": 0.8835,
+        "availability": 0.525,
+        "peers": 1.0
+      }
+    },
+    {
+      "rank": 4,
+      "circle": {
+        "id": 5,
+        "name": "Women Who Lead",
+        "slug": "women-who-lead",
+        "description": "A supportive circle for women focused on leadership skills.",
+        "topic": {
+          "slug": "leadership-skills",
+          "label": "Leadership skills"
+        },
+        "cover_image_url": "https://images.example.org/circles/women-who-lead.jpg",
+        "format": "hybrid",
+        "join_policy": "open",
+        "member_count": 24,
+        "max_members": 31,
+        "spots_left": 7,
+        "leader": {
+          "first_name": "Ingrid",
+          "job_title": "Recruiter"
+        }
+      },
+      "explanation": "Outside your listed interests, but one of the liveliest Circles right now. Very active: 11 posts and 165 chat messages in the past month.",
+      "reasons": [
+        {
+          "code": "popular_outside_interests",
+          "detail": "Among the most active Circles"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 11 posts and 165 chat messages in the past month."
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_hybrid",
+          "detail": "meets in person and online"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 1,
+          "name": "The Elevation Circle"
+        },
+        {
+          "id": 35,
+          "name": "Board-Ready Women"
+        }
+      ],
+      "score": {
+        "total": 0.4193,
+        "relevance": 0.0,
+        "activity": 0.8922,
+        "availability": 0.9,
+        "peers": 0.3333
+      }
+    },
+    {
+      "rank": 5,
+      "circle": {
+        "id": 11,
+        "name": "The Negotiation Table",
+        "slug": "the-negotiation-table",
+        "description": "A supportive circle for women focused on negotiation.",
+        "topic": {
+          "slug": "negotiation",
+          "label": "Negotiation"
+        },
+        "cover_image_url": "https://images.example.org/circles/the-negotiation-table.jpg",
+        "format": "hybrid",
+        "join_policy": "open",
+        "member_count": 15,
+        "max_members": 25,
+        "spots_left": 10,
+        "leader": {
+          "first_name": "Sofia",
+          "job_title": "Marketing Lead"
+        }
+      },
+      "explanation": "Outside your listed interests, but one of the liveliest Circles right now. Very active: 13 posts and 153 chat messages in the past month.",
+      "reasons": [
+        {
+          "code": "popular_outside_interests",
+          "detail": "Among the most active Circles"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 13 posts and 153 chat messages in the past month."
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_hybrid",
+          "detail": "meets in person and online"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 10,
+          "name": "Negotiation Circle"
+        },
+        {
+          "id": 12,
+          "name": "Negotiate Like a Leader"
+        }
+      ],
+      "score": {
+        "total": 0.4149,
+        "relevance": 0.0,
+        "activity": 0.933,
+        "availability": 0.9,
+        "peers": 0.0
+      }
+    }
+  ],
+  "debug": {
+    "interest_profile": [
+      {
+        "topic": "getting-promoted",
+        "weight": 1.0,
+        "source": "stated",
+        "evidence": null
+      },
+      {
+        "topic": "allyship",
+        "weight": 0.5,
+        "source": "joined",
+        "evidence": "Allies at Work"
+      }
+    ],
+    "excluded": [
+      {
+        "id": 2,
+        "name": "Next Chapter Circle",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "The Only One",
+        "reasons": [
+          "not_discoverable",
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Working Mothers United",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "The Promotion Path",
+        "reasons": [
+          "full"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Career Climbers",
+        "reasons": [
+          "not_discoverable",
+          "inactive"
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Allies at Work",
+        "reasons": [
+          "already_member"
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Women of the 405",
+        "reasons": [
+          "no_topic_to_match"
+        ]
+      },
+      {
+        "id": 28,
+        "name": "The Latina Coalition",
+        "reasons": [
+          "no_topic_to_match"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Professionals Who Parent",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Early Career Collective",
+        "reasons": [
+          "not_discoverable"
+        ]
+      },
+      {
+        "id": 32,
+        "name": "The Resilience Room",
+        "reasons": [
+          "inactive"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Return & Rise",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      }
+    ]
+  }
+}

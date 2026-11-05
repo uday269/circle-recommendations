@@ -1,0 +1,415 @@
+{
+  "user_id": 15,
+  "as_of": "2026-09-21T00:00:00.000Z",
+  "personalization": "stated_interests",
+  "recommendations": [
+    {
+      "rank": 1,
+      "circle": {
+        "id": 11,
+        "name": "The Negotiation Table",
+        "slug": "the-negotiation-table",
+        "description": "A supportive circle for women focused on negotiation.",
+        "topic": {
+          "slug": "negotiation",
+          "label": "Negotiation"
+        },
+        "cover_image_url": "https://images.example.org/circles/the-negotiation-table.jpg",
+        "format": "hybrid",
+        "join_policy": "open",
+        "member_count": 15,
+        "max_members": 25,
+        "spots_left": 10,
+        "leader": {
+          "first_name": "Sofia",
+          "job_title": "Marketing Lead"
+        }
+      },
+      "explanation": "Focused on Negotiation, one of your interests. Very active: 13 posts and 153 chat messages in the past month. 2 members also work in Technology.",
+      "reasons": [
+        {
+          "code": "stated_interest_topic_match",
+          "detail": "Negotiation"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 13 posts and 153 chat messages in the past month."
+        },
+        {
+          "code": "industry_peers",
+          "detail": "2 members in Technology"
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_hybrid",
+          "detail": "meets in person and online"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 10,
+          "name": "Negotiation Circle"
+        },
+        {
+          "id": 12,
+          "name": "Negotiate Like a Leader"
+        }
+      ],
+      "score": {
+        "total": 0.9482,
+        "relevance": 1.0,
+        "activity": 0.933,
+        "availability": 0.9,
+        "peers": 0.6667
+      }
+    },
+    {
+      "rank": 2,
+      "circle": {
+        "id": 13,
+        "name": "Confident Voices",
+        "slug": "confident-voices",
+        "description": "A supportive circle for women focused on confidence.",
+        "topic": {
+          "slug": "confidence",
+          "label": "Confidence"
+        },
+        "cover_image_url": "https://images.example.org/circles/confident-voices.jpg",
+        "format": "in_person",
+        "join_policy": "open",
+        "member_count": 12,
+        "max_members": 18,
+        "spots_left": 6,
+        "leader": {
+          "first_name": "Kira",
+          "job_title": "Founder"
+        }
+      },
+      "explanation": "Covers two of your interests: Confidence and Negotiation. Very active: 14 posts and 71 chat messages in the past month.",
+      "reasons": [
+        {
+          "code": "stated_interest_topic_match",
+          "detail": "Confidence"
+        },
+        {
+          "code": "stated_interest_tag_match",
+          "detail": "Negotiation"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 14 posts and 71 chat messages in the past month."
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_in_person",
+          "detail": "meets in person"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 37,
+          "name": "The Confidence Lab"
+        }
+      ],
+      "score": {
+        "total": 0.8224,
+        "relevance": 1.0,
+        "activity": 0.8746,
+        "availability": 0.4,
+        "peers": 0.0
+      }
+    },
+    {
+      "rank": 3,
+      "circle": {
+        "id": 5,
+        "name": "Women Who Lead",
+        "slug": "women-who-lead",
+        "description": "A supportive circle for women focused on leadership skills.",
+        "topic": {
+          "slug": "leadership-skills",
+          "label": "Leadership skills"
+        },
+        "cover_image_url": "https://images.example.org/circles/women-who-lead.jpg",
+        "format": "hybrid",
+        "join_policy": "open",
+        "member_count": 24,
+        "max_members": 31,
+        "spots_left": 7,
+        "leader": {
+          "first_name": "Ingrid",
+          "job_title": "Recruiter"
+        }
+      },
+      "explanation": "Like Board-Ready Women, a Circle you're in, this one focuses on Leadership skills. Very active: 11 posts and 165 chat messages in the past month. 2 members also work in Technology.",
+      "reasons": [
+        {
+          "code": "joined_interest_topic_match",
+          "detail": "Leadership skills"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Very active: 11 posts and 165 chat messages in the past month."
+        },
+        {
+          "code": "industry_peers",
+          "detail": "2 members in Technology"
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_hybrid",
+          "detail": "meets in person and online"
+        }
+      ],
+      "similar_circles": [
+        {
+          "id": 1,
+          "name": "The Elevation Circle"
+        }
+      ],
+      "score": {
+        "total": 0.686,
+        "relevance": 0.5,
+        "activity": 0.8922,
+        "availability": 0.9,
+        "peers": 0.6667
+      }
+    },
+    {
+      "rank": 4,
+      "circle": {
+        "id": 23,
+        "name": "Allies at Work",
+        "slug": "allies-at-work",
+        "description": "A supportive circle for women focused on allyship.",
+        "topic": {
+          "slug": "allyship",
+          "label": "Allyship"
+        },
+        "cover_image_url": "https://images.example.org/circles/allies-at-work.jpg",
+        "format": "virtual",
+        "join_policy": "open",
+        "member_count": 11,
+        "max_members": 20,
+        "spots_left": 9,
+        "leader": {
+          "first_name": "Naomi",
+          "job_title": null
+        }
+      },
+      "explanation": "Also covers Negotiation, one of your interests. Active: 3 posts and 10 chat messages in the past month.",
+      "reasons": [
+        {
+          "code": "stated_interest_tag_match",
+          "detail": "Negotiation"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Active: 3 posts and 10 chat messages in the past month."
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_virtual",
+          "detail": "meets virtually"
+        }
+      ],
+      "similar_circles": [],
+      "score": {
+        "total": 0.5257,
+        "relevance": 0.5,
+        "activity": 0.4189,
+        "availability": 1.0,
+        "peers": 0.0
+      }
+    },
+    {
+      "rank": 5,
+      "circle": {
+        "id": 34,
+        "name": "Visibility Lab",
+        "slug": "visibility-lab",
+        "description": "A supportive circle for women focused on visibility & recognition.",
+        "topic": {
+          "slug": "visibility-recognition",
+          "label": "Visibility & recognition"
+        },
+        "cover_image_url": "https://images.example.org/circles/visibility-lab.jpg",
+        "format": "hybrid",
+        "join_policy": "open",
+        "member_count": 7,
+        "max_members": 10,
+        "spots_left": 3,
+        "leader": {
+          "first_name": "Rosa",
+          "job_title": null
+        }
+      },
+      "explanation": "Like Seen & Heard, a Circle you're in, this one focuses on Visibility & recognition. Active: 5 posts and 20 chat messages in the past month, last active 12 days ago. Only 3 spots left.",
+      "reasons": [
+        {
+          "code": "joined_interest_topic_match",
+          "detail": "Visibility & recognition"
+        },
+        {
+          "code": "active_circle",
+          "detail": "Active: 5 posts and 20 chat messages in the past month, last active 12 days ago."
+        },
+        {
+          "code": "few_spots_left",
+          "detail": "3 spots left"
+        },
+        {
+          "code": "join_open",
+          "detail": "Open to join"
+        },
+        {
+          "code": "format_hybrid",
+          "detail": "meets in person and online"
+        }
+      ],
+      "similar_circles": [],
+      "score": {
+        "total": 0.5009,
+        "relevance": 0.5,
+        "activity": 0.3865,
+        "availability": 0.9,
+        "peers": 0.0
+      }
+    }
+  ],
+  "debug": {
+    "interest_profile": [
+      {
+        "topic": "confidence",
+        "weight": 1.0,
+        "source": "stated",
+        "evidence": null
+      },
+      {
+        "topic": "negotiation",
+        "weight": 1.0,
+        "source": "stated",
+        "evidence": null
+      },
+      {
+        "topic": "leadership-skills",
+        "weight": 0.5,
+        "source": "joined",
+        "evidence": "Board-Ready Women"
+      },
+      {
+        "topic": "visibility-recognition",
+        "weight": 0.5,
+        "source": "joined",
+        "evidence": "Seen & Heard"
+      }
+    ],
+    "excluded": [
+      {
+        "id": 2,
+        "name": "Next Chapter Circle",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Seen & Heard",
+        "reasons": [
+          "already_member"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "The Only One",
+        "reasons": [
+          "not_discoverable",
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Working Mothers United",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "The Promotion Path",
+        "reasons": [
+          "full"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Career Climbers",
+        "reasons": [
+          "not_discoverable",
+          "inactive"
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Women of the 405",
+        "reasons": [
+          "no_topic_to_match"
+        ]
+      },
+      {
+        "id": 28,
+        "name": "The Latina Coalition",
+        "reasons": [
+          "no_topic_to_match"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Professionals Who Parent",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Early Career Collective",
+        "reasons": [
+          "not_discoverable"
+        ]
+      },
+      {
+        "id": 32,
+        "name": "The Resilience Room",
+        "reasons": [
+          "inactive"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Return & Rise",
+        "reasons": [
+          "identity_topic_not_opted_in"
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Board-Ready Women",
+        "reasons": [
+          "already_member"
+        ]
+      }
+    ]
+  }
+}
