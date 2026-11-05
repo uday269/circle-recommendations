@@ -78,17 +78,31 @@ text to tell apart Circles that share a topic, and testing explanation wording w
 ## How I used AI
 _During this assessment, I leveraged Claude as an interactive technical partner to accelerate my workflow, deepen my understanding of the problem space, and ensure clean architecture. Specifically, I utilized it across the following areas:
 
-Problem Breakdown & Deepening Understanding: I used Claude to analyze the assessment requirements and requirements edge cases, helping me map out a comprehensive approach before writing code.
+**How I worked with it**
+- I gave it the seed dataset. Before writing code, it read the data
+  generator (`generate.mjs`) to understand exactly how the planted scenarios were built.
+  That surfaced things that weren't obvious from the README: timestamps are anchored to
+  2026-09-21 (so "inactive" must be judged against the snapshot date, not today), some
+  Circles are unlisted, and two have no topic.
+- We built in small steps (schema, then the recommender, then explanations) and checked the
+  output for all four planted users after each change, not just at the end.
 
-Architectural & Design Recommendations: I asked for best-practice recommendations on design patterns, modularity, and scalability suited to the project scope.
+**What changed after reviewing the output**
+- *Location:* the first version ranked The Elevation Circle (in person, leader in New York)
+  above Women Who Lead for Priya in Seattle. We added the leader's city as a soft signal
+  for where in-person Circles meet.
+- *Identity Circles:* it recommended "Working Mothers United" to Grace because of one tag.
+  We made identity/life-stage Circles opt-in, because a wrong assumption about someone's
+  life is worse than a missed match.
+- *Explanation length:* the first explanations ran to five sentences. We cut them to three
+  (why it fits, why now, one standout detail) and moved logistics into structured fields.
+- *Honest filler:* when a member's interests run out, filler Circles now say
+  "Outside your listed interests" instead of implying a match.
+- *Reviewer experience:* when I ran it locally, the base URL looked blank in my editor's
+  browser, so we added a landing page with links to each scenario.
 
-Repository & File Organization: I consulted Claude for guidance on structuring the repository, separating concerns cleanly across files, and maintaining a logical directory layout for readability and maintainability.
-
-Clear Explanations & Documentation: I used it to break down complex technical concepts and clarify implementation steps as I built out the solution.
-
-What I Changed or Rejected
-While Claude provided strong foundational layouts and recommendations, I actively reviewed and tailored them to fit the exact constraints of the assessment:
-
-File Structure Adjustments: Some suggested file hierarchies were over-engineered for the scale of this project. I simplified and flattened the directory structure to keep the codebase lean, readable, and directly aligned with standard project conventions.
-
-Code Refinement: Instead of accepting generated code blocks wholesale, I adapted the logic to match my preferred coding style, ensure optimal performance, and handle specific edge cases unique to this problem.
+**How I verified it**
+I ran the server and called the API for the planted users myself, read the debug output
+to confirm why Circles were excluded, and ran the test suite (planted scenarios plus
+checks across all 100 users). I also had it explain the full design back to me in plain
+language, so I understand the tradeoffs rather than just the code.
